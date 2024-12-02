@@ -1,0 +1,95 @@
+body{
+    
+    background-color: azure;
+}
+h1{
+    background-image: url(https://img.freepik.com/free-photo/sea-water-background_1203-2570.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: optimizeQuality;
+    font-size: xx-large;
+    font-style: oblique;
+    font-family: fantasy;
+    color:darkolivegreen;
+    font-weight: 500;
+    font-variant-east-asian:jis83;
+    text-align: center;
+    padding: 30px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+.one{
+    font-family: 'Times New Roman', Times, serif;
+    font-variant:small-caps ;
+    font-size: x-large;
+}
+p{
+    flex-wrap: wrap;
+    text-wrap:pretty;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#one{
+    padding-right: 150px;
+}
+
+.two{
+    font-family: 'Times New Roman', Times, serif;
+    font-variant:small-caps ;
+    font-size: x-large;
+}
+#two{
+    padding-left: 150px;
+}
+
+ul,li{
+    align-content: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.blue{
+    display:flex;
+    padding: 0px;
+    margin: 5px;
+    background-color: rgb(222, 235, 247);
+    justify-content: center;
+}
+#black{
+    display: flex;
+    background-color: black;
+    color: whitesmoke;
+    display:block;
+    margin: 20px;
+    margin-left: 5px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:black;
+    color:whitesmoke;
+    justify-content: center;
+}
+.column{
+    flex: 50%;
+    color:whitesmoke;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
